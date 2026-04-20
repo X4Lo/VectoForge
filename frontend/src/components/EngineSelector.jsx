@@ -3,7 +3,7 @@ const ENGINES = [
     id: 'metal',
     name: 'Metal Engine',
     icon: '⚙',
-    badge: 'B&W · Spline · Ultra-Detail',
+    badge: 'Color · Spline · Ultra-Detail',
     description: 'Monochrome with sharp spikes. Optimized for laser-cut metal art.',
   },
   {

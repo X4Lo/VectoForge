@@ -18,11 +18,11 @@ app.add_middleware(
 
 ENGINE_PRESETS = {
     "metal": {
-        "colormode": "binary",
+        "colormode": "color",
         "hierarchical": "cutout",
         "mode": "spline",
         "filter_speckle": 4,
-        "color_precision": 6,
+        "color_precision": 8,
         "layer_difference": 16,
         "corner_threshold": 20,
         "length_threshold": 10.0,
@@ -127,7 +127,7 @@ def get_engines():
                 "id": "metal",
                 "name": "Metal Engine",
                 "description": "High-detail monochrome. Ideal for metal art with sharp spikes and fine lines.",
-                "badge": "B&W · Spline · Ultra-Detail",
+                "badge": "Color · Spline · Ultra-Detail",
             },
             {
                 "id": "anime",

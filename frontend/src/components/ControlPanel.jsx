@@ -1,7 +1,7 @@
 const ENGINE_CONTROLS = {
   metal: {
     detail_level: { label: 'Detail Level', min: 1, max: 10, default: 10, hint: 'Path precision — higher = more nodes' },
-    color_count: null,
+    color_count: { label: 'Color Count', min: 2, max: 32, default: 8, hint: 'Number of quantized colors for full-color metal output' },
     corner_sharpness: { label: 'Corner Sharpness', min: 1, max: 100, default: 80, hint: 'Higher = spikier corners preserved' },
   },
   anime: {
